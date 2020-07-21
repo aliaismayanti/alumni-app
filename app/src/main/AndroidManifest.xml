@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="pnj.remedial.alia_ismayanti">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Pendataan Alumni"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name="pnj.remedial.alia_ismayanti.TambahmahasiswaActivity"></activity>
+        <activity android:name="pnj.remedial.alia_ismayanti.LoginActivity" /> <!-- <activity android:name=".LatihanImageActivity"></activity> -->
+        <activity android:name="pnj.remedial.alia_ismayanti.model.DetailActivity" />
+        <activity android:name="pnj.remedial.alia_ismayanti.SplashScreen" />
+        <activity android:name="pnj.remedial.alia_ismayanti.ListMahasiswaActivity" />
+        <activity
+            android:name="pnj.remedial.alia_ismayanti.MainActivity"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

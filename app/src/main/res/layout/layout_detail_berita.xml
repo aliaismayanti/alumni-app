@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="241dp"
+                app:srcCompat="@drawable/berita1" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:text="Karena Kita Bersaudara, Ini Cerita Anak PNJ yang Harus Diketahui Anak UI"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="40dp"
+                android:text="Politeknik Negeri Jakarta memiliki sejarahnya tersendiri, sehingga ia bisa terletak pada salah satu sudut kampus yang terkenal dengan jaket kuning. Pada awal berdirinya, 20 September 1982, kampus yang melahirkan banyak desainer kelas nasional ini memang bernama “Politeknik Universitas Indonesia” dan merupakan bagian dari Universitas Indonesia.
+
+Namun, dalam perkembangannya, pimpinan Politeknik UI memutuskan untuk memisahkan diri dari manajemen Universitas Indonesia dan berubah nama menjadi “Politeknik Negeri Jakarta”, dengan tetap memiliki hak tersendiri atas tanah dan gedung yang dimiliki atas nama PNJ secara institusional. Nah, tidak heran kalau warna jaket almamaternya juga kuning, persis UI.
+
+Nah, keberadaannya yang terpisah ini seringkali membuat tak sedikit mahasiswa UI memandang sebelah mata teman-teman kita yang menimba ilmu di PNJ. Sebagian bahkan sering melontarkan kata-kata seperti “Anak PNJ cuma numpang kuliah di UI”. Meski demikian, semangat teman-teman kita yang kuliah di PNJ tak pernah surut lho. Hal ini membuat mereka semakin termotivasi untuk menorehkan prestasi yang tak kalah dengan prestasi para mahasiswa yang berkuliah di kampus lain."
+                android:textSize="30sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

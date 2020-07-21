@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Latihan 1 ITKJ 6d</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+</resources>
